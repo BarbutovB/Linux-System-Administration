@@ -1,0 +1,34 @@
+1. Create two users (developer and manager) with full names like ProjectX Developer and ProjectX Manager or similar format. Then set their passwords to whatever you like, for example Password2 and Password3
+2. Create a new user group with ID 3000, named projectxyz
+3. Make both users (developer and manager) members of the projectxyz group
+4. Create a folder /shared/projects
+5. Create series of folders under /shared/projects with the following structure:
+
+o projectXYZ
+
+§ Stage1
+
+· DOCUMENTS
+
+· BUDGET
+
+§ Stage2
+
+· DOCUMENTS
+
+· BUDGET
+
+§ Stage3
+
+· DOCUMENTS
+
+· BUDGET
+
+6. Create at least 5 files document1.doc through document5.doc in every DOCUMENTS folder
+7. Create readme_en.txt, readme_bg.txt, and readme_de.txt files in every BUDGET folder
+8. Change the owner of the projectXYZ folder and all files and folders there to manager
+9. Change the group owner of the projectXYZ folder and all files and folders there to projectxyz
+
+10. Change the permissions of the projectXYZ folder and all subfolders (not the files, just the folders) to be read, write and execute for the owner and the group and nopermissions for everyone else.
+Adjust the permissions of all folders in such a way, so all new files made by either the developer or the manager user will be owned by the projectxyz group
+11. Set permissions for all files under the above folder structure (projectXYZ) to read and write for the owner and the group and no permissions for everyone else
