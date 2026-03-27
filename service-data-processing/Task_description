@@ -14,8 +14,8 @@ Create two files: doc1.txt containing department codes and locations (e.g., 10-I
 Task 7
 Merge the contents of doc1.txt and doc2.txt into a single file named doc3.txt.
 Task 8
-Extract all unique locations (the third field, e.g., HQ, Remote) from doc3.txt and save them in locations.txt.
+Enter a set of commands to extract the unique values from the third field of doc3.txt file and store them in locations.txt file.
 Task 9
-Count the occurrences of each unique location in doc3.txt and save the results in locations-count.txt.
+Extend the previous command in order to count the unique values and store the result to the locations-count.txt file.
 Task 10
 Find all files in the /etc directory that are smaller than 200 bytes, sort them alphabetically by path, and save the list to small-etc-files.txt.
