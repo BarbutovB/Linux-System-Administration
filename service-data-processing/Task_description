@@ -1,0 +1,21 @@
+Task 1
+Copy the /etc/services file to your current working directory under the name services.
+Task 2
+Extract all comment lines (lines starting with #) from the services file and save them in a new file named services_comments.txt.
+Task 3
+Create a new file named services_wo_comments.txt that contains all the data from the services file but without any comments.
+Task 4
+Extract only the lines containing /udp from the file without comments and save them in services_udp.txt.
+Task 5
+Note: The assignment requires processing a file named "well-known-ports.txt", which was not previously created. To proceed, rename "services_wo_comments.txt" to "well-known-ports.txt".
+Replace all forward slashes (/) with dashes (-) in the first 100 lines of well-known-ports.txt and save the result to 100-well-known-ports.txt.
+Task 6
+Create two files: doc1.txt containing department codes and locations (e.g., 10-IT-HQ) and doc2.txt containing employee IDs and names (e.g., 10-B.Thomas).
+Task 7
+Merge the contents of doc1.txt and doc2.txt into a single file named doc3.txt.
+Task 8
+Extract all unique locations (the third field, e.g., HQ, Remote) from doc3.txt and save them in locations.txt.
+Task 9
+Count the occurrences of each unique location in doc3.txt and save the results in locations-count.txt.
+Task 10
+Find all files in the /etc directory that are smaller than 200 bytes, sort them alphabetically by path, and save the list to small-etc-files.txt.
